@@ -1,0 +1,5 @@
+msgid "Complete your profile"
+msgstr "تکمیل پروفایل"
+
+msgid "You must complete your profile before accessing the dashboard"
+msgstr "برای دسترسی به پیشخوان باید پروفایل خود را تکمیل کنید"

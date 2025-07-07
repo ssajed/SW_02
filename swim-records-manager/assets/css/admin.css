@@ -1,0 +1,136 @@
+/* ساختار اصلی */
+.srm-admin {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.srm-card {
+    background: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* فرم‌ها */
+.srm-form-group {
+    margin-bottom: 15px;
+}
+
+.srm-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.srm-form-group input,
+.srm-form-group select {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* دکمه‌ها */
+.button-primary {
+    background: #00BCD4;
+    border-color: #00a5ba;
+    color: white;
+}
+
+.button-primary:hover {
+    background: #00a5ba;
+    border-color: #008c9e;
+}
+
+/* لیست */
+#srm-swimmers-list tr td {
+    vertical-align: middle;
+    padding: 12px 10px;
+}
+
+/* نشانگر سطح مهارت */
+.srm-badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    color: white;
+}
+
+.srm-badge-info { background: #17a2b8; }
+.srm-badge-success { background: #28a745; }
+.srm-badge-warning { background: #ffc107; color: #333; }
+.srm-badge-primary { background: #007bff; }
+.srm-badge-danger { background: #dc3545; }
+.srm-badge-secondary { background: #6c757d; }
+
+/* صفحه‌بندی */
+.srm-pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.tablenav-pages {
+    display: inline-block;
+    margin: 0;
+}
+
+.pagination-links {
+    margin-left: 10px;
+}
+
+/* جستجو */
+.srm-search-box {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.srm-search-box input {
+    flex: 1;
+    max-width: 300px;
+    margin-right: 5px;
+}
+
+/* استایل‌های جدید برای گزینه‌های رادیویی */
+.srm-level-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.srm-level-option {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.srm-level-option input[type="radio"] {
+    margin-left: 5px;
+}
+
+.srm-level-label {
+    padding: 8px 15px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+.srm-level-option input[type="radio"]:checked + .srm-level-label {
+    border-color: #00BCD4;
+    background-color: rgba(0, 188, 212, 0.1);
+    color: #00BCD4;
+    font-weight: bold;
+}
+
+.srm-level-option:hover .srm-level-label {
+    border-color: #00a5ba;
+}
+
+/* لودر */
+.srm-loader {
+    padding: 20px;
+    text-align: center;
+    color: #666;
+}
